@@ -1,12 +1,78 @@
 /* Your Website Styles */
 body {
-	background: #eee;
+	/*background-image: url("../img/bg.png");*/
+	background-color: rgb(218, 175, 193);
 }
 
+article {
+	background-color: rgba(233, 238, 202, 0.4);
+}
 
 div {
 	margin-top: -60px;	x 
 }
+
+a, li {
+	list-style: none;
+	text-decoration: none;
+}
+
+nav {
+  margin-top: 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: rgb(114, 105, 129);
+  overflow: hidden;
+  padding-left: 0;
+  padding-bottom: 40px;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 20px;
+	margin: 12px 10px 12px 0px;
+	background: transparent;
+}
+
+h1, h2, h4, nav a {
+	font-family: 'Antic', sans-serif;
+}
+
+h1 {
+	padding-top: 100px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+p, li {
+	font-family: 'Halant', serif;
+	font-size: 12px;
+}
+
+article {
+	padding-left: 20px;
+}
+
+
+nav a:link {
+	color: rgb(169, 218, 202);
+}
+
+nav a:visited, nav a:hover, nav a:active {
+	color: rgb(96, 170, 176);
+}
+
 
 
 /* Show Grid */
