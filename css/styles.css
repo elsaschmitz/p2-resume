@@ -80,7 +80,7 @@ h3 {
 
 h2 {
 	font-size: 25px;
-	text-align: center;
+	text-align: left;
 }
 
 h3 {
@@ -91,7 +91,7 @@ h3 {
 h4 {
 	font-size: 16px;
 	font-family: 'Roboto Condensed', sans-serif;
-	text-align: center;
+	text-align: left;
 	font-variant: small-caps; 
 	color: rgba(250, 243, 225, 0.9);
 	letter-spacing: 2px;
@@ -110,6 +110,7 @@ p {
 li {
 	list-style: none;
 	font-family: 'Droid Serif', serif;
+	color: rgba(250, 243, 225, 0.9);
 	line-height: 23px;
 	font-size: 14px;
 }
@@ -135,8 +136,9 @@ a:active {
 }
 
 #selfportrait {
-	width: 250px;
-	border-radius: 25px;
+	width: 200px;
+	border-radius: 100px;
+	margin-left: 175px;
 }
 
 #one,
@@ -158,7 +160,7 @@ a:active {
 }
 
 .heading {
-	font-size: 3em;
+	font-size: 2em;
 	background: rgba(0, 0, 0, 0.5);
 	height: auto;
 	width: 100%;
